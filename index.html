@@ -19,8 +19,15 @@
 <body>
     <div class="bg">
 
+
+
         <div class="container">
             <div class="grid">
+                <span><button class="his-btn special" onclick="toggleHistory()"><i class="fa fa-history"></i></button>
+                </span>
+                <span class="history" id="history">
+                    <ul id="historyList"></ul>
+                </span>
 
                 <input type="text" id="display" readonly>
 
@@ -50,10 +57,17 @@
                     <button onclick="append('.')">.</button>
                     <button class="equal special" onclick="calculate()">=</button>
 
+
                 </div>
             </div>
-        </div>
 
+            <div class="social">
+                <a href="https://www.linkedin.com/in/shreyanshu-dhawale" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Shreyanshu20" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:shreyanshudhawale2@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
 
     </div>
 
