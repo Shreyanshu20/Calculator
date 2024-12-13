@@ -47,7 +47,7 @@ body {
 
 input {
     margin-bottom: 15px;
-    width: 90%;
+    width: 92%;
     padding: 20px;
     border-radius: 10px;
     font-size: 2em;
@@ -92,4 +92,49 @@ button:active {
 .special {
     background-color: #492957;
     color: rgb(162, 255, 0);
+}
+
+@media (max-width: 450px) {
+
+    button {
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    input{
+        width: 88%;
+    }
+
+    .buttons {
+        padding: 0px;
+
+    }
+
+    .grid {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 325px) {
+
+    input {
+        width: 85%;
+    }
+
+    .buttons {
+        padding: 0px;
+
+    }
+
+    .grid {
+        gap: 5px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px
+    }
 }
