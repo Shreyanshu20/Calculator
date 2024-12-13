@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    background: hsla(282, 36%, 25%, 1);
+    background: radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(282, 36%, 25%, 1) 0%, hsla(310, 22%, 37%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#492957", endColorstr="#744A6D", GradientType=1);
+}
+
+.bg {
+    height: 100vh;
+    background-image: url("./assets/1.svg");
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(11, 86, 59);
+    background: linear-gradient(90deg, hsla(310, 22%, 37%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(310, 22%, 37%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(310, 22%, 37%, 1) 0%, hsla(321, 55%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#744A6D", endColorstr="#C53A94", GradientType=1);
+}
+
+.display {
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+    text-align: right;
+    background-color: #744A6D;
+    border: 2px solid black;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    background-color: #744A6D;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #4A7451;
+    color: white;
+    transform: scale(1.03);
+}
+
+button:active {
+    background-color: #37593A;
+}
+
+.equal {
+    grid-column: span 2;
+}
+
+.special {
+    background-color: #492957;
+    color: rgb(162, 255, 0);
+}
